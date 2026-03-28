@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: "Georgia", serif;
+}
+
+.carta {
+  width: 700px;
+  background: #f4f1ea;
+  padding: 60px 70px;
+  border-radius: 6px;
+}
+
+.titulo {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #3b3b3b;
+}
+
+.data {
+  text-align: right;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.conteudo {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo p {
+  margin: 20px 0;
+}
