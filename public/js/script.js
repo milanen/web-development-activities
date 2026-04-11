@@ -21,3 +21,7 @@ buttons.forEach((button) => {
 clearBttn.addEventListener("click", () => {
   display.value = "";
 });
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  display.value = "";
+});
